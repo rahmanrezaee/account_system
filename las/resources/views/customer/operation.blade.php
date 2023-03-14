@@ -1,0 +1,2 @@
+<a href="{{route('management.expense.edit',$expense->id)}}">Edit<i class="glyphicon glyphicon-edit"></i></a>
+<a href="{{route('management.expense.delete',$expense->id)}}" >Delete<i class="glyphicon glyphicon-trash"></i></a>
